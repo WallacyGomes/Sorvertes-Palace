@@ -22,6 +22,7 @@
 
 body{
     background-color: var(--amarelo);
+    max-width: 1440px;
 
 }
 
@@ -81,7 +82,7 @@ nav a:hover{
 article .produtos{
     display: flex;
     flex-direction: row;
-    align-content: center;
+    align-content: space-between;
     align-items: center;
     gap: 12em;
     color: #ffffff;
@@ -91,7 +92,7 @@ article .produtos{
     font-family: var(--p-font);
     text-align: left;
     line-height: 24px;
-    padding: 10px 0px;
+    padding: 14px 0px;
 
 }
 
