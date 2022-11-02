@@ -1,3 +1,3 @@
 # Sorvertes-Palace
- Site sobre uma empresa de sorvetes criada puramente com HTML5 e CSS3, com o intuito de desenvolver e treinar o meu conhecimento.
+ A idéia foi criar um site para uma sorveteria imaginária que gostaria de expandir o seu negócio e atrair mais clientes. Criado puramente com HTML5 e CSS3.
  
