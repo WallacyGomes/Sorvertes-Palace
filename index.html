@@ -4,62 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
     <title>Sovertes Palace</title>
 </head>
 <body>
-    <header>
-        <h1>Sorvetes Palace</h1>
-        <p>O melhor sorvete da região!</p>
+
+    <header class="header">
+        <div class="marca-header">
+            <h1>Sorvetes Palace</h1>
+            <p>O melhor sorvete da região!</p>
+        </div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sorvetes">Sorvetes</a></li>
+            <li><a href="#sobre">Sobre nós</a></li>
+        </ul>
     </header>
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Sobre nós</a>
-        <a href="#">Redes Sociais</a>
-        <a href="#">Seja um Franqueado</a>
-    </nav>
-    <main>
-        <article>
-            <div class="produtos">
-                <div class="imagemprod"><img src="Imagens/produto1.jpg" alt="Foto do sorvete"></div>
-                    <div class="conteudoprod">
-                        <h1>Nossos produtos</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente laborum voluptates accusamus omnis nobis, quia numquam asperiores provident quam velit mollitia dolorem perspiciatis obcaecati amet nisi soluta iusto modi nemo.</p>
-                    </div>
-                </div>    
-            </div>
-            <div class="tipos">
-                <h1 class="h1-tipos">Tipos de sorvetes</h1>
-                <div class="tipo">
-                    <div class="info-tipo">
-                        <img src="Imagens/tipo1.jpg" class="img-tipo" alt="Sorvete">     
-                        <h2 class="h2-tipo">Barca de fruta</h2>
-                        <p class="p-tipos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores odio alias aspernatur ullam sequi provident inventore nostrum.</p>
-                    </div>
-                    <div class="info-tipo">
-                        <img src="Imagens/tipo2.jpg" class="img-tipo" alt="Sorvete">
-                        <h2 class="h2-tipo">Tigela Gourmet</h2>
-                        <p class="p-tipos">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum maiores in dolores voluptas veritatis ad facere nostrum error!</p>
-                    </div>
-                    <div class="info-tipo">
-                        <img src="Imagens/tipo3.jpg" class="img-tipo" alt="Sorvete">
-                        <h2 class="h2-tipo">Casquinha</h2>
-                        <p class="p-tipos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia debitis, omnis sed deserunt sequi adipisci.</p>
-                    </div>
+
+    <main class="produtos" id="home">
+        <div class="produtos">
+            <div class="imagemprod"><img src="Imagens/produto1.jpg" alt="Foto do sorvete"></div>
+                <div class="conteudoprod">
+                    <h1>Nossos produtos</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente laborum voluptates accusamus omnis nobis, quia numquam asperiores provident quam velit mollitia dolorem perspiciatis obcaecati amet nisi soluta iusto modi nemo.</p>
+                </div>
+            </div>    
+        </div>
+    </main>
+
+        <article class="tipos" aria-label="tipos de sorvetes">
+            <h1 class="h1-tipos">Tipos de sorvetes</h1>
+            <div class="tipo">
+                <div class="info-tipo">
+                    <img src="Imagens/tipo1.jpg" class="img-tipo" alt="Sorvete">     
+                    <h2 class="h2-tipo">Barca de fruta</h2>
+                    <p class="p-tipos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores odio alias aspernatur ullam sequi provident inventore nostrum.</p>
+                </div>
+                <div class="info-tipo">
+                    <img src="Imagens/tipo2.jpg" class="img-tipo" alt="Sorvete">
+                    <h2 class="h2-tipo">Tigela Gourmet</h2>
+                    <p class="p-tipos">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum maiores in dolores voluptas veritatis ad facere nostrum error!</p>
+                </div>
+                <div class="info-tipo">
+                    <img src="Imagens/tipo3.jpg" class="img-tipo" alt="Sorvete">
+                    <h2 class="h2-tipo">Casquinha</h2>
+                    <p class="p-tipos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia debitis, omnis sed deserunt sequi adipisci.</p>
                 </div>
                 <button class="button-tipo">Ver todos os tipos</button>
             </div>
-
-            <div class="diferencial">
-                <h1>Nosso Diferencial</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus id tempora unde. Neque mollitia, voluptatum ab beatae molestias, culpa aspernatur vitae quam corporis cupiditate voluptas deleniti sapiente!</p>
-                <img src="Imagens/diferencial.jpg" class="feliz" alt="Pessoa feliz com um sorvete">
-            </div>
-            
         </article>
-    </main>
-    <footer>
+
+        <article class="diferencial" aria-label="Nosso diferencial">
+            <h1>Nosso Diferencial</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus id tempora unde. Neque mollitia, voluptatum ab beatae molestias, culpa aspernatur vitae quam corporis cupiditate voluptas deleniti sapiente!</p>
+            <img src="Imagens/diferencial.jpg" class="feliz" alt="Pessoa feliz com um sorvete">   
+        </article>
+
+    <footer class="footer">
         <h1>Sorvetes Palace</h1>
         <div class="fale-conosco">
             <h3>Fale com a gente</h3>
