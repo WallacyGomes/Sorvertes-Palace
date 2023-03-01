@@ -15,17 +15,6 @@
     --p-font: 'Merriweather Sans', sans-serif;
 }
 
-*{
-    margin: 0px;
-    padding: 0px;
-}
-
-body{
-    background-color: var(--amarelo);
-    max-width: 1440px;
-
-}
-
 header{
     display: flex;
     flex-direction: column;

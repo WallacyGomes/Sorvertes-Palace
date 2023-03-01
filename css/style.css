@@ -1,5 +1,7 @@
 @import url(global.css);
 @import url(header.css);
+@import url(produtos.css);
+@import url(utilitarios.css);
 
 :root{
     --rosa: #FD7DFF;
@@ -14,37 +16,6 @@
 
 body{
     background-color: var(--amarelo);
-
-}
-
-article .produtos{
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    align-items: center;
-    gap: 12em;
-    color: #ffffff;
-    background-image: url(Imagens/produtos.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: var(--p-font);
-    text-align: left;
-    line-height: 24px;
-    padding: 10px 0px;
-
-}
-
-.conteudoprod{
-    margin-left: 30px;
-    
-
-}
-
-.imagemprod{
-    display: flex;
-    order: 3;
-    margin: 20px;
-   
 
 }
 

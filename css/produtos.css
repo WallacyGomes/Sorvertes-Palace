@@ -1,0 +1,26 @@
+.produtos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  margin: 50px 0px;
+  gap: 20px;
+  padding: 60px;
+}
+
+.produtos h1 {
+  margin-bottom: 20px;
+}
+
+.produtos p {
+  background-color: #fb62fd;
+  padding: 20px;
+  text-align: start;
+}
+
+.conteudo-produtos {
+  text-align: center;
+}
+
+.img-produtos {
+  border-radius: 4px;
+}
