@@ -8,13 +8,13 @@
 }
 
 .produtos h1 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .produtos p {
   background-color: #fb62fd;
   padding: 20px;
-  text-align: start;
+  text-align: center;
 }
 
 .conteudo-produtos {
@@ -23,4 +23,24 @@
 
 .img-produtos {
   border-radius: 4px;
+}
+
+@media (max-width: 700px) {
+  .produtos {
+    grid-template-columns: 1fr;
+    place-items: center;
+    margin: 30px 0px;
+    gap: 10px;
+    padding: 30px;
+  }
+}
+
+@media (max-width: 300px) {
+  .produtos h1 {
+    font-size: 24px;
+  }
+
+  .produtos p {
+    font-size: 14px;
+  }
 }
