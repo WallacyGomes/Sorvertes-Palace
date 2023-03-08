@@ -1,8 +1,14 @@
+.main-produtos {
+  background: var(--amarelo) url(../Imagens/produtos-fundo.jpg) no-repeat bottom;
+  padding: 1px 0px;
+}
+
 .produtos {
   display: grid;
+  max-width: 1200px;
   grid-template-columns: 1fr 1fr;
   place-items: center;
-  margin: 50px 0px;
+  padding: 50px 0px;
   gap: 20px;
   padding: 60px;
 }

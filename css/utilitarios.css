@@ -8,9 +8,19 @@
     padding: 8px;
 }
 
+.h2{
+    display: inline-block;
+    font-family: var(--h1-font), Arial, sans-serif;
+    font-size: 20px;
+    color: var(--azul-2);
+    background-color: var(--verde);
+    border-radius: 5px;
+    padding: 8px;
+}
+
 .p{
     font-size: 16px;
-    line-height: 20px;
+    line-height: 22px;
     font-family: var(--p-font);
     font-weight: bold;
     color: #ffffff;

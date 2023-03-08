@@ -1,0 +1,96 @@
+.article-tipos{
+    background: var(--amarelo) url(../Imagens/tipos-fundo.jpg) no-repeat center;
+    padding: 30px 0px;
+}
+
+.tipos-de-sorvetes{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.tipos-de-sorvetes a{
+    color: #fff;
+    background-color: var(--rosa);
+    border-radius: 5px;
+    border: none;
+    font: bold 18px arial, sans-serif;
+    padding: 16px;
+}
+
+.tipos-de-sorvetes a:hover{
+    color: var(--azul-2);
+    background-color: var(--verde);
+    transition: 0.5s;
+}
+.container-tipos{
+    text-align: start;
+}
+
+.tipos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+.tipos-sorvetes h2{
+    border-radius: 0px 0px 5px 5px;
+    margin-bottom: 10px;
+}
+
+.tipos-sorvetes p{
+    max-width: 300px;
+    color: var(--azul-2);
+    background-color: var(--verde);
+    font-weight: 400;
+    padding: 10px;
+    min-height: 90px;
+}
+
+.tipos-sorvetes img{
+    border-radius: 4px;
+
+}
+
+@media (max-width: 800px){
+    .tipos-de-sorvetes a{
+        display: none;
+    }
+    .tipos{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        padding: 20px 20px 40px;
+        overflow-x: auto;
+        margin: 0 auto;
+    }
+    .tipos-sorvetes{
+        flex: 1;
+        min-width: 380px;
+    }
+    .tipos-sorvetes p{
+        min-height: 88px;
+    }
+    .tipos-sorvetes img{
+        width: 90%;
+    }
+}
+
+@media (max-width: 500px){
+    .tipos-sorvetes img{
+        width: 80%;
+    }
+
+}
+
+@media (max-width: 300px){
+    .tipos-sorvetes img{
+        width: 60%;
+    }
+    .tipos-sorvetes p{
+        max-width: 20ch;
+        min-height: 0px;
+    }
+}
