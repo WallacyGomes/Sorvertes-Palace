@@ -1,9 +1,11 @@
 @import url(global.css);
-
+@import url(utilitarios.css);
 @import url(header.css);
 @import url(produtos.css);
 @import url(tipos.css);
-@import url(utilitarios.css);
+@import url(diferencial.css);
+@import url(footer.css);
+
 :root{
     --rosa: #FD7DFF;
     --azul: #8AC6FF;
@@ -11,6 +13,7 @@
     --amarelo:#FFF8B8;
     --marrom: #F0AC97;
     --verde: #94FF8C;
+    --verde-escuro: #41da36;
     --palace-font: 'Courgette', cursive;
     --h1-font: 'Suez One', serif;
     --p-font: 'Merriweather Sans', sans-serif;
@@ -18,84 +21,5 @@
 
 body{
     background-color: var(--amarelo);
-
-}
-
-article .diferencial{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    background-image: url(Imagens/diferencial-fundo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-
-
-}
-
-.diferencial h1{
-    margin-top: 30px;
-
-
-}
-
-.diferencial p{
-    background-color: var(--azul);
-    border-radius: 3px;
-    padding: 6px;
-    line-height: 25px;
-    font-style: italic;
-    text-align: center;
-
-
-}
-
-.feliz{
-    width: 50%;
-    margin: 30px 0px 50px;
-    border-radius: 4px;
-
-}
-
-footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    align-content: center;
-    background-color: var(--marrom);
-
-}
-
-.fale-conosco{
-    flex-flow: column;
-    padding: 25px;
-
-
-}
-
-.redes-sociais{
-    flex-flow: column;
-
-}
-
-footer h1{
-    font-family: var(--palace-font);
-    font-size: 35px;
-    color: #7dedf5;
-    text-shadow: 0px 0px 8px #2727276c
-}
-
-footer h3{
-    font-family: var(--h1-font);
-    color: #ffffff;
-    font-weight: normal;
-
-}
-
-footer p{
-    font-family: var(--p-font);
-    font-size: 14px;
-    color: #ffffff;
 
 }

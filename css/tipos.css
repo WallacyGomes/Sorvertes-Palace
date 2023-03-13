@@ -10,9 +10,14 @@
 
 }
 
+.article-tipos h1{
+    color: var(--azul-2);
+    background-color: var(--verde);
+}
+
 .tipos-de-sorvetes a{
-    color: #fff;
-    background-color: var(--rosa);
+    color: var(--azul-2);
+    background-color: var(--verde);
     border-radius: 5px;
     border: none;
     font: bold 18px arial, sans-serif;
@@ -20,8 +25,8 @@
 }
 
 .tipos-de-sorvetes a:hover{
-    color: var(--azul-2);
-    background-color: var(--verde);
+    color: #2293fc;
+    background-color: #b2fcad;
     transition: 0.5s;
 }
 .container-tipos{
@@ -86,11 +91,18 @@
 }
 
 @media (max-width: 300px){
+    .article-tipos h1{
+    font-size: 24px;
+    }
     .tipos-sorvetes img{
         width: 60%;
     }
     .tipos-sorvetes p{
         max-width: 20ch;
         min-height: 0px;
+    }
+    .tipos{
+        gap: 20px;
+        padding: 40px 20px;
     }
 }

@@ -1,0 +1,55 @@
+.diferencial{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding: 0px 20px;
+    background: var(--amarelo) url(../Imagens/diferencial-fundo.jpg) no-repeat center;
+}
+
+.feliz{
+    margin: 30px 0px 50px;
+    border-radius: 4px;
+
+}
+
+.diferencial h1{
+    margin: 30px 0px 10px;
+    background-color: var(--azul);
+}
+
+.diferencial p{
+    max-width: 54ch;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: normal;
+    font-style: italic;
+    border-radius: 3px;
+    padding: 20px;
+    background-color: var(--azul);
+}
+
+@media (max-width: 500px){
+    .diferencial p{
+        max-width: 54ch;
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+
+@media (max-width: 300px){
+    .diferencial h1{
+        font-size: 24px;
+    }
+    .diferencial p{
+        max-width: 48ch;
+        font-size: 14px;
+        line-height: 22px;
+        padding: 16px;
+    }
+    .diferencial{
+        padding: 0px 10px;
+    }
+    .feliz{
+        margin: 10px 0px 30px;
+    }
+}
